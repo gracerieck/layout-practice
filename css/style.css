@@ -40,43 +40,65 @@ h4 {
 ========================================== */
 
 header{
-  background-color: #cccccc; /* grey */
-  
-  
+  background-color: #43FF61; /* light green */
+  width: ;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  padding:10px;
 }
 
 footer{
-  background-color: #babaff; /* light-ish blue */
-  
-  
+  background-color: #dddddd; /* grey */
+  width: ;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
 }
 
 .content-wrapper{
-  background-color:#fafa00; /* yellow */
-  
-  
+  background-color: white; /* white */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article{
-  background-color: #f0be86; /* kind of orange */
-  
-  
+  background-color: white; /* white */
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
 }
 
 .sidebar{
-  background-color: #ffaecf; /* kind of pink */
-  
+  background-color: #dddddd; /* grey */
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.article h1{
+  color: #43FF61; /* light green */
+    
+}
+
+.featured-image{
+  float: right;
   
 }
 
+figure{
+  float: left;
+}
 
-
-
-
-
-
-
-
+.sidebar img{
+  max-width: 100%;
+  height: auto;
+}
 
 /* =======================================
     helper classes
